@@ -21,6 +21,7 @@ import com.google.android.youtube.player.YouTubePlayer;
 import com.google.android.youtube.player.YouTubePlayerFragment;
 
 import android.os.Bundle;
+import android.util.Log;
 
 /**
  * A simple YouTube Android API demo application which shows how to create a simple application that
@@ -34,6 +35,7 @@ public class FragmentDemoActivity extends YouTubeFailureRecoveryActivity {
 
   @Override
   public void onCreate(Bundle savedInstanceState) {
+    Log.d("TAG", "TEST");
     super.onCreate(savedInstanceState);
 
     setContentView(R.layout.fragments_demo);
